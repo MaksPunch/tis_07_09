@@ -1,0 +1,81 @@
+
+/* Bin Page start */
+
+.bin_container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.bin_things_container {
+	margin-left: 215px;
+}
+
+.bin_thing {
+	display: flex;
+	height: 202px;
+	margin-top: 20px;
+}
+
+.bin_thing:first-child {
+	margin-top: 0;
+}
+
+.bin_thing_desc {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	font-size: 32px;
+	line-height: 1;
+}
+
+.bin_thing_desc p {
+	margin-top: 10px;
+}
+
+.bin_photo {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 27px 21px;
+}
+
+.bin_overall {
+	display: flex;
+	flex-direction: column;
+	margin-right: 215px;
+	margin-top: 20px;
+}
+
+.make_order {
+	align-self: flex-end;
+	margin-top: 14%;
+}
+
+.make_order button {
+	font-size: 24px;
+	width: 300px;
+	height: 55px;
+}
+
+.bin_overall h1{
+	align-self: flex-end;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 57px;
+}
+
+.delete_button {
+	width: 218px;
+	height: 55px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	margin-left: 20px;
+	align-self: flex-end;
+}
+
+.bin_img {
+	width: 140px;
+	height: 150px;
+}
+
+/* Bin Page end */

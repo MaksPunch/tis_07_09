@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Wear Today</title>
+	<link rel="stylesheet" href="styles/reg_page_style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<div class="login_container" id="kodpotver">
+			<div class="vostanovlenie">
+				<div class="logo_s">
+					<a class="logo" href="index.html">The Wear Today</a>
+				</div>
+				<div class="inputs_reg">
+					<input class="inputs2" type="text" size="40" placeholder="Номер телефона или E-mail">
+				</div>
+				<div class="inputs_reg">
+					<input class="inputs2" type="password" size="40" placeholder="Код подтверждения">
+				</div>
+				<div class="log">	
+					<div class="vhod" id="asap">
+						<a href="#">Отправить код повторно</a>
+					</div>
+				</div>
+				<div class="buttons">
+					<button class="reg" id="hider"><a href="login.html">Подтвердить	</a>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="login_container hidden" id="sbros_parol">
+			<div class="vostanovlenie">
+				<div class="logo_s">
+					<a class="logo" href="index.html">The Wear Today</a>
+				</div>
+				<div class="inputs_reg">
+					<input class="inputs2" type="text" size="40" placeholder="Введите пароль">
+				</div>
+				<div class="inputs_reg">
+					<input class="inputs2" type="password" size="40" placeholder="Подтвердите пароль">
+				</div>
+				<div class="log">	
+					<div class="vhod">
+						<a href="login.html">Отмена</a>
+					</div>
+				</div>
+				<div class="buttons">
+					<button class="reg">
+						<a href="index.html">Сбросить пароль</a>
+					</button>
+				</div>
+			</div>
+		</div>
+	</main>
+<script>
+	document.querySelector("#hider").onclick = function(){
+	document.getElementById('sbros_parol').classList.remove('hidden');
+	document.getElementById('kodpotver').classList.add('hidden');
+}
+</script>	
+</body>
+</html>

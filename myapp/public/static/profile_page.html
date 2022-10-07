@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Wear Today</title>
+	<link rel="stylesheet" href="styles/profile_page_style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="logo_container">
+			<h1><a href="index.html">The Wear Today</a></h1>
+		</div>
+		<div class="right_side">
+			<div class="login_container">
+				<div class="profile_page_link">
+						<a href="profile_page.html">Личный кабинет</a>
+				</div>	
+			</div>
+		</div>
+	</header>
+	<main>
+		<!-- buttons for arrows in orders -->
+		<button class="hidden" id="open_close_advanced_1" name="switch"></button>
+		<button class="hidden" id="open_close_advanced_2" name="switch"></button>
+		<button class="hidden" id="open_close_advanced_3" name="switch"></button>
+		<div class="menu">
+			<div class="left_menu">
+				<a href="index.html">Главная</a>
+				<a href="katalog.html">Каталог</a>
+				<a href="prodavan.html">Для продавцов</a>
+				<a href="about__us.html">О нас</a></div>
+			<a class="bin_button" href="bin.html">Корзина</a>
+		</div>
+		<div class="profile_container">
+			<div class="profile_info_cards">
+				<div class="profile_info_container">
+					<div class="profile_photo">
+						<img class="profile_img" src="img/camera.png" alt="">
+						<p>Добавьте фото</p>
+					</div>
+					<div class="profile_info">
+						<p>Имя: </p>
+						<p>E-mail: </p>
+						<button>Редактировать</button>
+					</div>
+				</div>
+				<div class="profile_cards_container">
+					<div class="cards_header">
+						<h4>Привязанные карты</h4>
+					</div>
+					<div class="card_info">
+						<div class="card_name">
+							Visa *0849
+						</div>
+						<div class="card_container">
+							<div class="card_photo">
+								<img src="img/card.png" alt="">
+							</div>
+							<button class="card_edit">Редактировать</button>
+						</div>
+					</div>
+					<div class="card_info">
+						<div class="card_name">
+							Mastercard *4791
+						</div>
+						<div class="card_container">
+							<div class="card_photo">
+								<img src="img/card.png" alt="">
+							</div>
+							<button class="card_edit">Редактировать</button>
+						</div>
+					</div>
+					<button class="add_card_1">Добавить карту</button>
+					<div class="add_card_menu hidden">
+						<div class="card_number">
+							<p class="card_menu_p">Номер карты</p>
+							<input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="0000 0000 0000 0000" class="input_card">
+						</div>
+						<div class="exp_cvc_row">
+							<div class="expiration_date">
+								<p class="card_menu_p">Срок действия</p>
+								<input type="text" placeholder="00/00" class="input_card">
+							</div>
+							<div class="CVC">
+								<p class="card_menu_p">CVC</p>
+								<input type="password" inputmode="numeric" maxlength="3" placeholder="000" class="input_card">
+							</div>
+						</div>
+						<div class="card_holder">
+							<p class="card_menu_p">Фамилия имя</p>
+							<input type="text" placeholder="IVANOV IVAN" class="input_card">
+						</div>
+						<button class="add_card">Добавить карту</button>
+					</div>
+				</div>
+			</div>
+			<div class="profile_order">
+				<div class="profile_order_header">
+					<h2>Мои заказы</h2>
+				</div>
+				<div class="profile_order_inner">
+					<div class="profile_order_filter">
+						<div class="filter_options">
+							<button class="all">
+								Все
+							</button>
+							<button class="open">
+								Открытые
+							</button>
+							<button class="closed">
+								Закрытые
+							</button>
+						</div>
+					</div>
+					<div class="profile_order_container">
+						<div class="profile_order_thing" id="closed">
+							<div class="profile_order_info">
+								<div class="profile_order_info_top">
+									<div class="number">
+										Заказ №113059
+									</div>
+									<div class="order_date">
+										от 21.01.2021
+									</div>
+									<div class="order_count">
+										1 товар
+									</div>
+									<div class="order_price">
+										4000p
+									</div>
+									<label id="arrow_1" class="rotate_right arrow" for="open_close_advanced_1"></label>
+								</div>
+								<div class="profile_order_info_bottom">
+									<div class="confirmation_date">
+										Заказ получен 28.01.2021
+									</div>
+									<div class="profile_order_status">
+										Завершен
+									</div>
+								</div>
+							</div>
+							<div class="profile_order_advanced opacity_0" id="advanced_1">
+								<div class="profile_order_photo">
+									<img src="img/jacket.png" alt="" class='order_img'>
+								</div>
+								<div class="order_advanced_info">
+									<div class="advanced_name">
+										Кофта, размер S
+									</div>
+									<div class="advanced price">
+										2000р
+									</div>
+								</div>
+								<div class="advanced_count">
+									2шт
+								</div>
+								<div class="advanced_price">
+									2000p
+								</div>
+							</div>
+						</div>
+						<div class="profile_order_thing" id="closed">
+							<div class="profile_order_info">
+								<div class="profile_order_info_top">
+									<div class="number">
+										Заказ №136838
+									</div>
+									<div class="order_date">
+										от 14.02.2021
+									</div>
+									<div class="order_count">
+										1 товар
+									</div>
+									<div class="order_price">
+										2000p
+									</div>
+									<label id="arrow_2" class="rotate_right arrow" for="open_close_advanced_2"></label>
+								</div>
+								<div class="profile_order_info_bottom">
+									<div class="confirmation_date">
+										Заказ получен 21.02.2021
+									</div>
+									<div class="profile_order_status">
+										Завершен
+									</div>
+								</div>
+							</div>
+							<div class="profile_order_advanced opacity_0" id="advanced_2">
+								<div class="profile_order_photo">
+									<img src="img/jacket.png" alt="" class='order_img'>
+								</div>
+								<div class="order_advanced_info">
+									<div class="advanced_name">
+										Кофта, размер S
+									</div>
+									<div class="advanced price">
+										2000р
+									</div>
+								</div>
+								<div class="advanced_count">
+									2шт
+								</div>
+								<div class="advanced_price">
+									2000p
+								</div>
+							</div>
+						</div>
+						<div class="profile_order_thing" id="open">
+							<div class="profile_order_info">
+								<div class="profile_order_info_top">
+									<div class="number">
+										Заказ №672890
+									</div>
+									<div class="order_date">
+										от 09.03.2021
+									</div>
+									<div class="order_count">
+										2 товара
+									</div>
+									<div class="order_price">
+										4500p
+									</div>
+									<label id="arrow_3" class="rotate_right arrow" for="open_close_advanced_3"></label>
+								</div>
+								<div class="profile_order_info_bottom">
+									<div class="profile_order_status">
+										В процессе
+									</div>
+								</div>
+							</div>
+							<div class="profile_order_advanced opacity_0" id="advanced_3">
+								<div class="profile_order_photo">
+									<img src="img/jacket.png" alt="" class='order_img'>
+								</div>
+								<div class="order_advanced_info">
+									<div class="advanced_name">
+										Кофта, размер S
+									</div>
+									<div class="advanced price">
+										2000р
+									</div>
+								</div>
+								<div class="advanced_count">
+									2шт
+								</div>
+								<div class="advanced_price">
+									2000p
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<footer>
+		<div class="information">
+			<p>The Wear Today - компания, которая дарит вам сча\стье каждый день, предлагая высококачественную продукцию по доступным ценам.</p>
+			<p>© Все права защищены 2020</p>
+		</div>
+		<div class="contacts">
+			<p>Наши контакты</p>
+			<p>Телефон: +7 999 999 99 99</p>
+			<p>E-mail: TheWearToday@gmail.com</p>
+			<div class="soc_media">
+				<a href="https://vk.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/vk-circled.png"/></a>
+				<a href="https://youtube.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
+				<a href="https://instagram.com/" target="_blank"><img src="https://at.tamb32.ru/images/icons/inst.png"/></a>
+				<a href="https://twitter.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/></a>
+			</div>
+		</div>
+	</footer>
+	<script src="profile_page_script.js">	
+	</script>
+</body>
+</html>

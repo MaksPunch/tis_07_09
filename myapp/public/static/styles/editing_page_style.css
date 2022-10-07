@@ -1,0 +1,110 @@
+
+/* editing */
+
+.name_tvr {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	margin-left: 44px;
+	display: flex;
+	margin-top: 50px;
+}
+
+.sliva {
+	margin-left: 38px;
+}
+
+.cofta_name {
+	margin-left: 77px;
+}
+
+.pan {
+	margin-left: 26px;
+	margin-top: 26px;
+}
+
+.pan2 {
+	margin-left: 230px;
+	align-self: center;
+}
+
+.pan3 {
+	margin-left: 26px;
+	margin-top: 22px;
+}
+
+.opisanie {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 44px;
+	display: flex;
+}
+
+.buy_2 {
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+	height: 473px;
+	width: 394.25px;
+	display: flex;
+    align-items: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.thing_text1 {
+	margin-top: -100px;
+}
+
+.description1 {
+	flex-wrap: wrap;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-left: 44px;
+	font-size: 24px;
+	line-height: 28.18px;
+	margin-top: -24px;
+}
+
+.edit_price {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 44px;
+	display: flex;
+}
+
+.edit_price1 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 292px;
+}
+ 
+.edit_price2 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 290px;
+}
+
+.redact {
+	width: 163px;
+	height: 49px;
+	left: 944px;
+	top: 623px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	margin-left: 44px;
+	margin-top: 20px;
+}
+
+/* editing end */

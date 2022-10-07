@@ -1,0 +1,112 @@
+
+/* Buy Page start */
+.left_buy{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.right_buy{
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.buy_container {
+	display: flex;
+	margin-bottom: 20px;
+	align-items: center;
+	background: #FFFFFF;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.buy_1 {
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+	height: 315px;
+	width: 300px;
+}
+
+.phototobuy{
+	width: 270px;
+	height: 280px;
+	margin: 15px;
+}
+
+.name_price {
+	font-family: 'Syne', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+}
+.description {
+	flex-wrap: wrap;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;	
+	line-height: 28.18px;
+}
+.resaler {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.resale p {
+	margin: 0;
+}
+.resale_size {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	display: flex;
+}
+.size_button {
+	display: flex;
+	margin-top: 8px;
+	width: 100%;
+	height: 62px;
+}
+
+.size_button button {
+	height: 50px;
+	width: 100%;
+	border-right: 0;
+	border-left: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+.size_button button:last-child {
+	border-right: 1px solid #000;
+}
+
+.size_button button:first-child {
+	border-left: 1px solid #000;
+}
+.buy_buy {
+	width: 130px;
+	height: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-right: 5px;
+}
+
+.edem_za_pivom {
+	margin-left: 160px;
+}
+.trash_can {
+	width: 130px;
+	height: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 5px;
+}
+
+.buy_buttons{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+/* Buy Page end */

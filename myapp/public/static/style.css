@@ -1,0 +1,1127 @@
+/* global */
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	line-height: 16px;
+	display: flex;
+	flex-direction: column;
+	overflow: none;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+button {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;		
+	background: transparent;
+	border: 1px solid #000;
+	cursor: pointer;
+	height: 50px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+h2 {
+	font-family: 'Syne', sans-serif;
+	font-weight: 700;
+	margin: 0;
+	font-size: 64px;
+	line-height: 0.9;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	font-size: 32px;
+}
+
+.hidden {
+	display: none;
+}
+
+.opacity_0 {
+	opacity: 0 !important;
+	height: 0 !important;
+	padding: 0 !important;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	margin: 0;
+	padding-bottom: 6px;
+	line-height: 16px;
+}
+
+input {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+
+u {
+	text-decoration-thickness: 1px;
+}
+
+footer{
+	width: 100%;
+}
+
+.inputs {
+	height: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: rgba(196, 196, 196, 0.5);
+}
+
+.inputs2 {
+	outline: none;
+	height: 50px;
+	width: 90%;
+	background-color: rgba(196, 196, 196, 0.5);
+	text-align: center;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+}
+
+.inputs_reg input::placeholder, .inputs, .inputs2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* global end */
+
+/* Header start */
+
+header {
+	border-bottom: 1px solid #000;
+	width: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.right_side {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-right: 4%;
+}
+
+.logo_container {
+	margin-left: 4%;
+}
+
+
+.flex_1 {
+	margin-left: 26px;
+}
+
+.menu {
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #000;
+}
+
+.left_menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: center;
+}
+
+.bin_button{
+	  margin-right: 7%;
+}
+  
+/* Header end */
+
+/* Footer start */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+	border-top: 1px solid #000;
+	height: 118px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.information {
+	flex-wrap: wrap;
+	width: 472px;
+	height: 70px;
+	margin-left: 4%;
+}
+
+.contacts {
+	margin-right: 4%;
+	width: 228px;
+	height: 47px;
+	justify-content: flex-end;
+	align-content: center;
+	margin-top: 6px;
+}
+
+.contacts p {
+	margin: 1px 0;
+}
+
+.soc_media {
+	margin-top: 8px;
+}
+
+.soc_media img {
+	width: 20px;
+	height: 20px;
+}
+
+.soc_media a {
+	margin-right: 4px;
+}
+
+.soc_media a:last-child {
+	margin-right: 0;
+}
+
+/* Footer end */
+
+
+/*/////////////*/
+#sbros_parol{
+	transition: opacity .6s;
+}
+/*/////////////*/
+
+.ad {
+	display: flex;
+}
+
+.profile_ad_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	margin-left: 350px;
+}
+
+.ad_button {
+	display: flex;
+	width: 180px;
+	justify-content: center;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.profile_ad {
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+	width: 842px;
+	height: 626px;
+	border: 1px solid #000;
+}
+
+/* media */
+
+@media screen and (min-width: 1821px) {
+  h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
+    font-size: 40px;
+  }
+  body {
+	font-size: 20px;
+  }
+  header{
+	height: 58px;
+  }
+  .left_menu{
+	margin-left: 30%;
+	margin-right: 15%;
+  }
+  .slider_header {
+	font-size: 105px;
+  }
+  .slider_text{
+	font-size: 72px;
+  }
+  .slider_photo img{
+	height: 450px;
+  }
+  .point {
+	width: 26px;
+	height: 26px;
+	margin-right: 32px;
+  }
+  .content_1, .content_2, .content_3 {
+	height: 450px;
+  }
+  .slider_container {
+	height: 450px;
+  }
+  .menu {
+	height: 25px;
+	margin-top: 10px;
+  }
+  .things{
+	  width: 62%
+  }
+  .things_container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  .name_price{
+	font-size: 64px;
+  }
+  .description{
+	font-size: 24px;
+  }
+  .makslox{
+	font-size: 64px;
+	text-align: center;	
+	line-height: 1.1;
+  }
+  .makslox_niz{
+	font-size: 48px;
+	text-align: center;
+  }
+  footer{
+	 font-size: 14px;
+  }
+  .benefits_text{
+	  font-size: 32px;
+  }
+  .profile_order {
+	width: 35%;
+  }
+}
+
+@media screen and (min-width: 1580px) and (max-width: 1821px){
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
+    font-size: 40px;
+  }
+  body {
+	font-size: 20px;
+  }
+  header{
+	height: 58px;
+  }
+  .left_menu{
+	margin-left: 30%;
+	margin-right: 15%;
+  }
+  .slider_header {
+	font-size: 105px;
+  }
+  .slider_text{
+	font-size: 72px;
+  }
+  .slider_photo img{
+	height: 450px;
+  }
+  .point {
+	width: 26px;
+	height: 26px;
+	margin-right: 32px;
+  }
+  .content_1, .content_2, .content_3 {
+	height: 450px;
+  }
+  .slider_container {
+	height: 450px;
+  }
+  .menu {
+	height: 25px;
+	margin-top: 10px;
+  }
+  .things{
+	  width: 65%
+  }
+  .things_container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  footer{
+	 font-size: 14px;
+  }
+  .name_price{
+	font-size: 64px;
+  }
+  .description{
+	font-size: 24px;
+  }
+  .makslox{
+	font-size: 64px;
+	text-align: center;	
+	line-height: 1.1;
+  }
+  .makslox_niz{
+	font-size: 48px;
+	text-align: center;
+  }
+  .benefits_text{
+	  font-size: 32px;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 6%;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 57px;
+  	margin: 0;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
+  .profile_order {
+	width: 35%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1579px) {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
+    font-size: 40px;
+  }
+  body {
+	font-size: 20px;
+  }
+  header{
+	height: 58px;
+  }
+  .left_menu{
+	margin-left: 30%;
+	margin-right: 15%;
+  }
+  .slider_header {
+	font-size: 105px;
+  }
+  .slider_text{
+	font-size: 72px;
+  }
+  .slider_photo img{
+	height: 450px;
+  }
+  .point {
+	width: 26px;
+	height: 26px;
+	margin-right: 32px;
+  }
+  .content_1, .content_2, .content_3 {
+	height: 450px;
+  }
+  .slider_container {
+	height: 450px;
+  }
+  .menu {
+	height: 25px;
+	margin-top: 10px;
+  }
+  .things{
+	  width: 80%
+  }
+  .things_container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  footer{
+	 font-size: 14px;
+  }
+  .name_price{
+	font-size: 64px;
+  }
+  .description{
+	font-size: 24px;
+  }
+  .makslox{
+	font-size: 64px;
+	text-align: center;	
+	line-height: 1.1;
+  }
+  .makslox_niz{
+	font-size: 48px;
+	text-align: center;
+  }
+  .benefits_text{
+	  font-size: 32px;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 6%;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 57px;
+  	margin: 0;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1399px){
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
+    font-size: 40px;
+  }
+  body {
+	font-size: 20px;
+  }
+  header{
+	height: 58px;
+  }
+  .left_menu{
+	margin-left: 30%;
+	margin-right: 15%;
+  }
+  .slider_header {
+	font-size: 105px;
+  }
+  .slider_text{
+	font-size: 72px;
+  }
+  .slider_photo img{
+	height: 450px;
+  }
+  .point {
+	width: 26px;
+	height: 26px;
+	margin-right: 32px;
+  }
+  .content_1, .content_2, .content_3 {
+	height: 450px;
+  }
+  .slider_container {
+	height: 450px;
+  }
+  .menu {
+	height: 25px;
+	margin-top: 10px;
+  }
+  .things{
+	  width: 80%
+  }
+  .things_container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  footer{
+	 font-size: 14px;
+  }
+  .name_price{
+	font-size: 42px;
+  }
+  .description{
+	font-size: 20px;
+  }
+  .makslox{
+	font-size: 64px;
+	text-align: center;	
+	line-height: 1.1;
+  }
+  .makslox_niz{
+	font-size: 48px;
+	text-align: center;
+  }
+  .benefits_text{
+	  font-size: 32px;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 6%;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 24px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 57px;
+  	margin: 0;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
+}
+
+@media screen and (min-width: 509px) and (max-width: 999px) {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
+    font-size: 20px;
+  }
+  body {
+	font-size: 15px;
+  }
+  header{
+	height: 40px;
+  }
+  .left_menu{
+	margin-left: 15%;
+	margin-right: 10%;
+  }
+  .slider_header {
+	font-size: 50px;
+  }
+  .slider_text{
+	font-size: 45px;
+  }
+  .slider_photo img{
+	height: 200px;
+  }
+  .point {
+	width: 19px;
+	height: 19px;
+	margin-right: 32px;
+  }
+  .content_1, .content_2, .content_3 {
+	height: 200px;
+  }
+  .slider_container {
+	height: 200px;
+  }
+  .menu {
+	height: 25px;
+	margin-top: 10px;
+  }
+  .things{
+	width: 90%
+  }
+  .things_container{
+	flex-direction: row;
+	width: 100%;
+  }
+  footer{
+	 font-size: 14px;
+  }
+  .name_price{
+	font-size: 24px;
+  }
+  .description{
+	font-size: 16px;
+  }
+  .makslox{
+	font-size: 40px;
+	text-align: center;	
+	line-height: 1.1;
+  }
+  .makslox_niz{
+	font-size: 30px;
+	text-align: center;
+  }
+  .benefits_text{
+	  font-size: 32px;
+  }
+  .profile_cards_container{
+	  display: none;
+  }
+  .bin_container {
+  	flex-wrap: wrap;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  	margin-right: 4%;
+  	line-height: 0.9;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 0;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 36px;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  	margin-left: 0;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
+  .profile_photo {
+	width: 90px;
+	height: 90px;
+  }
+  .profile_img {
+  	width: 40px;
+  }
+  .profile_photo p {
+  	font-size: 10px;
+  }
+  .profile_info p {
+  	font-size: 14px;
+  }
+  .profile_info button {
+  	margin-top: 0;
+  	height: 40px;
+  	width: 130px;
+  	font-size: 14px;
+  }
+  .profile_order_header {
+  	text-align: center;
+  }
+  .profile_order_filter {
+  	justify-content: center;
+  }
+  .profile_order_header h2 {
+  	font-size: 42px;
+  }
+  .profile_order_advanced {
+  	padding: 1% 4% 1% 4%;
+  }
+  .order_advanced_info {
+  	margin-left: 2%;
+  }
+  .order_img {
+  	width: 40px;
+  	height: 40px;
+  }
+}
+
+@media screen and (max-width: 508px) and (min-width: 360px){
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
+    font-size: 15px;
+  }
+  body {
+	font-size: 10px;
+  }
+  header{
+	height: 25px;
+  }
+  .left_menu{
+	margin-left: 4%;
+	margin-right: 8%;
+  }
+  .slider_header {
+	font-size: 35px;
+  }
+  .slider_text{
+	font-size: 30px;
+  }
+  .slider_photo img{
+	height: 150px;
+  }
+  .point {
+	width: 10px;
+	height: 10px;
+	margin-right: 24px;
+  }
+  .content_1, .content_2, .content_3 {
+	height: 150px;
+  }
+  .slider_container {
+	height: 150px;
+  }
+  .menu {
+	height: 20px;
+	margin-top: 5px;
+  }
+  .things_container{
+	flex-direction: column;
+	width: 100%;
+  }
+  .description{
+	font-size: 16px;
+  }
+  .name_price{
+	font-size: 24px;
+  }
+  .makslox{
+	font-size: 30px;
+	text-align: center;
+	line-height: 1.1;
+  }
+  .makslox_niz{
+	font-size: 25px;
+	text-align: center;
+  }
+  .benefits_text{
+	  font-size: 25px;
+  }
+  .profile_cards_container{
+	  display: none;
+  }
+    .bin_container {
+  	flex-wrap: wrap;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+   	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 20px;
+  	margin-right: 4%;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 0;
+  	margin-top: 4%;
+  }
+  .make_order {
+  	margin-top: 0;
+  	align-self: flex-start;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 36px;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  	margin-left: 0;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
+  .profile_photo {
+	width: 90px;
+	height: 90px;
+  }
+  .profile_img {
+  	width: 40px;
+  }
+  .profile_photo p {
+  	font-size: 10px;
+  }
+  .profile_info p {
+  	font-size: 14px;
+  }
+  .profile_info button {
+  	margin-top: 0;
+  	height: 40px;
+  	width: 130px;
+  	font-size: 14px;
+  }
+  .profile_order_header {
+  	text-align: center;
+  }
+  .profile_order_filter {
+  	justify-content: center;
+  }
+  .profile_order_header h2 {
+  	font-size: 32px;
+  }
+  .profile_order_advanced {
+  	padding: 1% 4% 1% 4%;
+  }
+  .order_advanced_info {
+  	margin-left: 2%;
+  }
+  .order_img {
+  	width: 40px;
+  	height: 40px;
+  }
+}
+
+@media screen and (max-width: 359px) and (min-width: 299px){
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
+    font-size: 13px;
+  }
+  body {
+	font-size: 9px;
+  }
+  header{
+	height: 25px;
+  }
+  .left_menu{
+	margin-left: 4%;
+	margin-right: 8%;
+  }
+  .slider_header {
+	font-size: 30px;
+  }
+  .slider_text{
+	font-size: 25px;
+  }
+  .slider_photo img{
+	height: 150px;
+  }
+  .point {
+	width: 10px;
+	height: 10px;
+	margin-right: 24px;
+  }
+  .content_1, .content_2, .content_3 {
+	height: 150px;
+  }
+  .slider_container {
+	height: 150px;
+  }
+  .menu {
+	height: 20px;
+	margin-top: 5px;
+  }
+  .things_container{
+	flex-direction: column;
+	width: 100%;
+  }
+  footer{
+	font-size: 8px;
+  }
+  .information{
+	  margin-right: 12px;
+  }
+  .description{
+	font-size: 16px;
+  }
+  .name_price{
+	font-size: 24px;
+  }
+  .buy_buttons{
+	justify-content: center;
+  }
+  .makslox{
+	font-size: 25px;
+	text-align: center;	
+	line-height: 1.1;
+  }
+  .makslox_niz{
+	font-size: 20px;
+	text-align: center;
+  }
+  .benefits_text{
+	  font-size: 25px;
+  }
+  .profile_cards_container{
+	  display: none;
+  }
+  .profile_order_inner{
+	  margin-left: 0;
+	  border: none;
+  }
+  .bin_container {
+  	flex-wrap: wrap;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	height: auto;
+  	flex-wrap: wrap;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 20px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 0;
+  	margin-top: 4%;
+  }
+  .make_order {
+  	margin-top: 0;
+  	align-self: flex-start;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 36px;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  	margin-left: 0;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
+  .profile_photo {
+	width: 90px;
+	height: 90px;
+  }
+  .profile_img {
+  	width: 40px;
+  }
+  .profile_photo p {
+  	font-size: 10px;
+  }
+  .profile_info p {
+  	font-size: 14px;
+  }
+  .profile_info button {
+  	margin-top: 0;
+  	height: 40px;
+  	width: 130px;
+  	font-size: 14px;
+  }
+  .profile_order_header {
+  	text-align: center;
+  }
+  .profile_order_filter {
+  	justify-content: center;
+  }
+  .profile_order_header h2 {
+  	font-size: 32px;
+  }
+  .profile_order_advanced {
+  	padding: 1% 4% 1% 4%;
+  }
+  .order_advanced_info {
+  	margin-left: 2%;
+  }
+  .order_img {
+  	width: 40px;
+  	height: 40px;
+  }
+}
+/* media end*/

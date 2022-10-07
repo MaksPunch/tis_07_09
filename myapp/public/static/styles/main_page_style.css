@@ -1,0 +1,165 @@
+/* Slider start */
+
+.content {
+	opacity: 0;
+	transition: opacity .6s;
+	pointer-events: none;
+}
+
+.content_1, .content_2, .content_3 {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.slider_photo img{
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	filter: blur(6px);
+}
+
+.slider_text_container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.slider_text_container p {
+	color: #fff;
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.33);
+}
+
+
+.slider_text {
+	margin-top: -20px;
+	align-self: center;	
+}
+
+
+.slider_switches {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.point {
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 50%;
+	pointer-events: auto;
+}
+
+.point:last-child {
+	margin-right: 0;
+}
+
+#i_1, #i_2, #i_3 {
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+#i_1:checked ~ .slider_container .content_1,
+#i_2:checked ~ .slider_container .content_2,
+#i_3:checked ~ .slider_container .content_3 {
+	opacity: 1;
+	pointer-events: auto;
+
+}
+
+.slider_switches label {
+	color: #000;
+	transition-duration: .6s;
+	cursor: pointer;
+}
+
+#i_1:checked ~ .slider_switches label[for="i_1"],
+#i_2:checked ~ .slider_switches label[for="i_2"],
+#i_3:checked ~ .slider_switches label[for="i_3"] {
+	background-color: #000;
+}
+
+
+/* Slider end */
+
+/* Things start */
+
+.things {	
+	margin: 20px auto 0 auto;
+}
+
+.things_header {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.things_container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	align-content: center;
+}
+
+.container {
+	margin: 10px 10px 0 10px;
+	width: 300px;
+	height: 392px;
+	left: 350px;
+	top: 700px;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+	box-shadow: 0 0 17px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+.odezda {
+	display: flex;
+	flex-direction: column;
+	margin-top: 32px;
+}
+
+.photo {
+	align-self: center;
+}
+
+.info {
+	width: 100%;
+	border-bottom: 1px solid #000;
+	height: 67px;
+	font-size: 28px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info p {
+	margin: 0 17.5px;
+	align-self: center;
+}
+
+.bin, .buy {
+	background: #fff;
+	border: 0;
+	font-size: 28px;
+	line-height: 16px;
+	height: 76px;
+	cursor: pointer;
+	outline: none;
+}
+
+.bin {
+	width: 197px;
+}
+
+.buy {
+	width: 150px;
+	border-right: 1px solid #000;
+}
+
+/* Things end */
